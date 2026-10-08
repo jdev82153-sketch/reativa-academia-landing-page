@@ -1,482 +1,529 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta
-        name="description"
-        content="Reativa Academia Terapêutica - Academia, medicina e saúde em Macapá-AP."
-    >
+  <meta
+    name="description"
+    content="Reativa Academia Terapêutica — movimento, saúde e bem-estar em Macapá."
+  >
 
-    <title>Reativa Academia Terapêutica</title>
+  <title>Reativa Academia Terapêutica</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap"
-        rel="stylesheet"
-    >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
 
-    <link rel="stylesheet" href="style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="container nav">
 
-    <header class="header">
+      <a href="#inicio" class="logo" aria-label="Reativa Academia Terapêutica">
+        <img
+          src="assets/1000069036-removebg-preview.png"
+          alt="Logo Reativa Academia Terapêutica"
+        >
+      </a>
 
-        <div class="container nav">
+      <button
+        class="menu-btn"
+        id="menuBtn"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-            <a href="#inicio" class="logo">
-                <img
-                    src="assets/Screenshot_2026-10-08-08-41-09-261_com.instagram.android.jpg"
-                    alt="Reativa Academia Terapêutica"
-                >
+      <nav class="menu" id="menu">
+
+        <a href="#sobre">Sobre</a>
+
+        <a href="#servicos">Experiência</a>
+
+        <a href="#horarios">Horários</a>
+
+        <a href="#contato">Contato</a>
+
+        <a
+          class="menu-instagram"
+          href="https://www.instagram.com/reativaacademia.ap/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram ↗
+        </a>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+  <main>
+
+    <section class="hero" id="inicio">
+
+      <div class="hero-background"></div>
+
+      <div class="container hero-content">
+
+        <div class="hero-text">
+
+          <div class="tag">
+            <span></span>
+            ACADEMIA TERAPÊUTICA
+          </div>
+
+          <h1>
+            Movimento que
+            <strong>transforma.</strong>
+          </h1>
+
+          <p>
+            Um espaço dedicado à academia, saúde e bem-estar,
+            pensado para ajudar você a cuidar do corpo, da saúde
+            e da qualidade de vida.
+          </p>
+
+          <div class="buttons">
+
+            <a href="#contato" class="btn btn-primary">
+              Conheça a Reativa
+              <span>→</span>
             </a>
 
-            <button
-                class="menu-btn"
-                id="menuBtn"
-                aria-label="Abrir menu"
-            >
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <a href="#horarios" class="btn btn-secondary">
+              Ver horários
+            </a>
 
-            <nav class="menu" id="menu">
+          </div>
 
-                <a href="#sobre">Sobre</a>
+          <div class="hero-info">
 
-                <a href="#servicos">Experiência</a>
+            <div class="hero-info-item">
+              <strong>07:30</strong>
+              <small>ABERTURA</small>
+            </div>
 
-                <a href="#horarios">Horários</a>
+            <i></i>
 
-                <a href="#contato">Contato</a>
+            <div class="hero-info-item">
+              <strong>19:30</strong>
+              <small>ENCERRAMENTO</small>
+            </div>
 
-                <a
-                    class="menu-instagram"
-                    href="https://www.instagram.com/reativaacademia.ap/"
-                    target="_blank"
-                >
-                    Instagram ↗
-                </a>
+            <i></i>
 
-            </nav>
+            <div class="hero-info-item">
+              <strong>MACAPÁ</strong>
+              <small>AMAPÁ</small>
+            </div>
+
+          </div>
 
         </div>
 
-    </header>
+
+        <!-- Visual abstrato -->
+        <div class="hero-visual" aria-hidden="true">
+
+          <div class="visual-glow"></div>
+
+          <div class="visual-line visual-line-one"></div>
+
+          <div class="visual-line visual-line-two"></div>
+
+          <div class="visual-circle">
+
+            <div class="visual-circle-inner"></div>
+
+            <span class="visual-dot"></span>
+
+          </div>
+
+          <span class="visual-text">
+            REATIVA
+          </span>
+
+          <span class="visual-number">
+            01
+          </span>
+
+          <div class="visual-label">
+            <span></span>
+            MOVIMENTO · SAÚDE · BEM-ESTAR
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="scroll">
+        ROLE PARA EXPLORAR
+        <span>↓</span>
+      </div>
+
+    </section>
 
 
-    <!-- ================= HERO ================= -->
+    <!-- ================= SOBRE ================= -->
+    <section class="about section-light" id="sobre">
 
-    <main>
+      <div class="container about-grid">
 
-        <section class="hero" id="inicio">
+        <div class="section-label">
+          <span>01</span>
+          SOBRE A REATIVA
+        </div>
 
-            <div class="hero-background"></div>
+        <div class="about-content">
 
-            <div class="container hero-content">
+          <h2>
+            Mais que exercício.
+            <strong>Um novo jeito de cuidar de você.</strong>
+          </h2>
 
-                <div class="hero-text">
+          <p>
+            A Reativa Academia Terapêutica nasceu com uma proposta
+            diferente: unir movimento, cuidado e qualidade de vida
+            em um ambiente acolhedor e profissional.
+          </p>
 
-                    <div class="tag">
-                        <span></span>
-                        ACADEMIA TERAPÊUTICA
-                    </div>
+          <p>
+            Aqui, cada pessoa é respeitada em sua individualidade,
+            buscando uma rotina mais ativa, saudável e equilibrada.
+          </p>
 
-                    <h1>
-                        Movimento que
-                        <strong>transforma.</strong>
-                    </h1>
+          <div class="about-highlight">
 
-                    <p>
-                        Um espaço dedicado à academia, saúde e bem-estar,
-                        pensado para ajudar você a cuidar do corpo,
-                        da saúde e da qualidade de vida.
-                    </p>
-
-                    <div class="buttons">
-
-                        <a
-                            href="#contato"
-                            class="btn btn-primary"
-                        >
-                            Conheça a Reativa
-                            <span>→</span>
-                        </a>
-
-                        <a
-                            href="#horarios"
-                            class="btn btn-secondary"
-                        >
-                            Ver horários
-                        </a>
-
-                    </div>
-
-                    <div class="hero-info">
-
-                        <div>
-                            <strong>07:30</strong>
-                            <small>ABERTURA</small>
-                        </div>
-
-                        <i></i>
-
-                        <div>
-                            <strong>19:30</strong>
-                            <small>ENCERRAMENTO</small>
-                        </div>
-
-                        <i></i>
-
-                        <div>
-                            <strong>MACAPÁ</strong>
-                            <small>AMAPÁ</small>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- LOGO -->
-
-                <div class="hero-logo-card">
-
-                    <div class="circle circle-1"></div>
-                    <div class="circle circle-2"></div>
-
-                    <div class="logo-container">
-
-                        <img
-                            src="assets/Screenshot_2026-10-08-08-41-09-261_com.instagram.android.jpg"
-                            alt="Reativa Academia Terapêutica"
-                        >
-
-                    </div>
-
-                    <div class="card-footer">
-
-                        <span>REATIVANDO VIDAS</span>
-
-                        <span class="orange-ball"></span>
-
-                    </div>
-
-                </div>
-
+            <div>
+              <strong>01</strong>
+              <span>
+                Cuidado<br>
+                individualizado
+              </span>
             </div>
 
-            <div class="scroll">
-                ROLE PARA EXPLORAR ↓
+            <div>
+              <strong>02</strong>
+              <span>
+                Movimento<br>
+                com propósito
+              </span>
             </div>
 
-        </section>
-
-
-        <!-- ================= SOBRE ================= -->
-
-        <section class="section about" id="sobre">
-
-            <div class="container about-grid">
-
-                <div>
-
-                    <span class="section-label">
-                        01 / SOBRE A REATIVA
-                    </span>
-
-                    <h2>
-                        Saúde não é apenas
-                        chegar mais longe.
-                        <em>É viver melhor.</em>
-                    </h2>
-
-                </div>
-
-                <div class="about-text">
-
-                    <p>
-                        A <strong>Reativa Academia Terapêutica</strong>
-                        nasceu com o propósito de unir movimento,
-                        cuidado e saúde em um ambiente profissional
-                        e acolhedor.
-                    </p>
-
-                    <p>
-                        Localizada no bairro Trem, em Macapá,
-                        a Reativa oferece uma proposta voltada
-                        para academia, medicina e saúde.
-                    </p>
-
-                    <a href="#contato">
-                        Conheça nosso espaço →
-                    </a>
-
-                </div>
-
+            <div>
+              <strong>03</strong>
+              <span>
+                Qualidade<br>
+                de vida
+              </span>
             </div>
 
-        </section>
+          </div>
 
+        </div>
 
-        <!-- ================= SERVIÇOS ================= -->
+      </div>
 
-        <section class="section services" id="servicos">
+    </section>
 
-            <div class="container">
 
-                <div class="section-header">
+    <!-- ================= SERVIÇOS ================= -->
+    <section class="services section-dark" id="servicos">
 
-                    <div>
+      <div class="container">
 
-                        <span class="section-label">
-                            02 / EXPERIÊNCIA
-                        </span>
+        <div class="section-heading">
 
-                        <h2>
-                            Um espaço pensado
-                            <em>para você.</em>
-                        </h2>
+          <div class="section-label light">
+            <span>02</span>
+            EXPERIÊNCIA REATIVA
+          </div>
 
-                    </div>
+          <h2>
+            Movimento pensado
+            <strong>para você.</strong>
+          </h2>
 
-                    <p>
-                        Uma proposta que combina academia,
-                        medicina e saúde em uma experiência
-                        integrada de cuidado.
-                    </p>
+          <p>
+            Um ambiente preparado para transformar sua relação
+            com o movimento, a saúde e o bem-estar.
+          </p>
 
-                </div>
+        </div>
 
 
-                <div class="cards">
+        <div class="services-grid">
 
-                    <article class="card">
+          <article class="service-card">
 
-                        <span class="number">01</span>
+            <div class="service-number">01</div>
 
-                        <div class="card-icon">↗</div>
+            <div class="service-icon">✦</div>
 
-                        <h3>Academia</h3>
-
-                        <p>
-                            Movimento, condicionamento e
-                            uma rotina mais ativa para
-                            melhorar sua qualidade de vida.
-                        </p>
-
-                    </article>
-
-
-                    <article class="card active">
-
-                        <span class="number">02</span>
-
-                        <div class="card-icon">✦</div>
-
-                        <h3>Medicina & Saúde</h3>
-
-                        <p>
-                            Uma proposta voltada para saúde,
-                            prevenção e qualidade de vida.
-                        </p>
-
-                    </article>
-
-
-                    <article class="card">
-
-                        <span class="number">03</span>
-
-                        <div class="card-icon">+</div>
-
-                        <h3>Cuidado Terapêutico</h3>
-
-                        <p>
-                            Cuidado, acompanhamento e
-                            evolução respeitando cada pessoa.
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= HORÁRIOS ================= -->
-
-        <section class="section schedule" id="horarios">
-
-            <div class="container schedule-grid">
-
-                <div>
-
-                    <span class="section-label">
-                        03 / HORÁRIOS
-                    </span>
-
-                    <h2>
-                        Seu dia tem ritmo.
-                        <em>A Reativa também.</em>
-                    </h2>
-
-                    <p>
-                        Organize sua rotina e venha cuidar
-                        da sua saúde.
-                    </p>
-
-                </div>
-
-
-                <div class="schedule-card">
-
-                    <div class="schedule-row">
-
-                        <span>
-                            Manhã
-                        </span>
-
-                        <strong>
-                            07:30 — 12:00
-                        </strong>
-
-                    </div>
-
-
-                    <div class="schedule-row">
-
-                        <span>
-                            Tarde / Noite
-                        </span>
-
-                        <strong>
-                            14:00 — 19:30
-                        </strong>
-
-                    </div>
-
-
-                    <div class="schedule-status">
-
-                        <span></span>
-
-                        HORÁRIO DE FUNCIONAMENTO
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CONTATO ================= -->
-
-        <section class="contact" id="contato">
-
-            <div class="container contact-grid">
-
-                <div>
-
-                    <span class="section-label">
-                        04 / VENHA CONHECER
-                    </span>
-
-                    <h2>
-                        Pronto para
-                        <em>reativar?</em>
-                    </h2>
-
-                </div>
-
-
-                <div class="contact-info">
-
-                    <p class="address">
-
-                        R. Jovino Dinoá, 3110 — Trem
-                        <br>
-
-                        Macapá — AP
-                        <br>
-
-                        CEP 68901-120
-
-                    </p>
-
-
-                    <div class="contact-buttons">
-
-                        <a
-                            class="btn btn-primary"
-                            href="https://www.google.com/maps/search/?api=1&query=R.%20Jovino%20Dino%C3%A1%2C%203110%2C%20Trem%2C%20Macap%C3%A1%20-%20AP"
-                            target="_blank"
-                        >
-                            Abrir no mapa ↗
-                        </a>
-
-
-                        <a
-                            class="btn btn-outline"
-                            href="https://www.instagram.com/reativaacademia.ap/"
-                            target="_blank"
-                        >
-                            Instagram
-                        </a>
-
-                    </div>
-
-
-                    <a
-                        class="email"
-                        href="mailto:reativa.academia@gmail.com"
-                    >
-                        reativa.academia@gmail.com
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <div class="container footer-content">
+            <h3>
+              Academia
+            </h3>
 
             <p>
-                © <span id="year"></span>
-                Reativa Academia Terapêutica
+              Estrutura e acompanhamento para você desenvolver
+              força, mobilidade, condicionamento e disposição.
             </p>
 
-            <a href="#inicio">
-                Voltar ao topo ↑
-            </a>
+            <span class="card-arrow">↗</span>
+
+          </article>
+
+
+          <article class="service-card featured">
+
+            <div class="service-number">02</div>
+
+            <div class="service-icon">◌</div>
+
+            <h3>
+              Saúde
+            </h3>
+
+            <p>
+              O movimento como parte de uma rotina mais saudável,
+              ativa e equilibrada.
+            </p>
+
+            <span class="card-arrow">↗</span>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-number">03</div>
+
+            <div class="service-icon">+</div>
+
+            <h3>
+              Bem-estar
+            </h3>
+
+            <p>
+              Um espaço acolhedor para cuidar do corpo, melhorar
+              sua qualidade de vida e sentir-se melhor.
+            </p>
+
+            <span class="card-arrow">↗</span>
+
+          </article>
 
         </div>
 
-    </footer>
+      </div>
+
+    </section>
 
 
-    <script src="script.js"></script>
+    <!-- ================= HORÁRIOS ================= -->
+    <section class="schedule section-light" id="horarios">
+
+      <div class="container schedule-grid">
+
+        <div>
+
+          <div class="section-label">
+            <span>03</span>
+            HORÁRIOS
+          </div>
+
+          <h2>
+            Encontre o melhor
+            <strong>momento para você.</strong>
+          </h2>
+
+          <p>
+            Organize sua rotina e venha cuidar do seu corpo
+            no horário que funciona melhor para você.
+          </p>
+
+        </div>
+
+
+        <div class="schedule-card">
+
+          <div class="schedule-header">
+            <span>FUNCIONAMENTO</span>
+            <span>SEG — SEX</span>
+          </div>
+
+          <div class="schedule-row">
+
+            <div>
+              <small>MANHÃ</small>
+              <strong>07:30 — 12:00</strong>
+            </div>
+
+            <span class="schedule-status">
+              ABERTO
+            </span>
+
+          </div>
+
+          <div class="schedule-row">
+
+            <div>
+              <small>TARDE / NOITE</small>
+              <strong>14:00 — 19:30</strong>
+            </div>
+
+            <span class="schedule-status">
+              ABERTO
+            </span>
+
+          </div>
+
+          <div class="schedule-footer">
+            Segunda a sexta-feira
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTATO ================= -->
+    <section class="contact" id="contato">
+
+      <div class="contact-background"></div>
+
+      <div class="container contact-content">
+
+        <div class="section-label light">
+          <span>04</span>
+          FALE COM A REATIVA
+        </div>
+
+        <h2>
+          Seu movimento
+          <strong>começa aqui.</strong>
+        </h2>
+
+        <p>
+          Conheça a Reativa Academia Terapêutica e descubra
+          um espaço feito para cuidar de você.
+        </p>
+
+        <div class="contact-buttons">
+
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=R.%20Jovino%20Dino%C3%A1%2C%203110%2C%20Trem%2C%20Macap%C3%A1%20-%20AP"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-white"
+          >
+            Ver localização
+            <span>↗</span>
+          </a>
+
+          <a
+            href="https://www.instagram.com/reativaacademia.ap/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >
+            Instagram
+            <span>↗</span>
+          </a>
+
+        </div>
+
+
+        <div class="contact-details">
+
+          <div>
+            <small>ENDEREÇO</small>
+
+            <strong>
+              R. Jovino Dinoá, 3110<br>
+              Trem, Macapá — AP
+            </strong>
+          </div>
+
+
+          <div>
+            <small>INSTAGRAM</small>
+
+            <a
+              href="https://www.instagram.com/reativaacademia.ap/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @reativaacademia.ap
+            </a>
+          </div>
+
+
+          <div>
+            <small>E-MAIL</small>
+
+            <a href="mailto:reativa.academia@gmail.com">
+              reativa.academia@gmail.com
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <a href="#inicio" class="footer-logo">
+        <img
+          src="assets/1000069036-removebg-preview.png"
+          alt="Reativa Academia Terapêutica"
+        >
+      </a>
+
+      <p>
+        © <span id="year"></span>
+        Reativa Academia Terapêutica.
+        Todos os direitos reservados.
+      </p>
+
+      <a href="#inicio" class="back-top">
+        VOLTAR AO TOPO ↑
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 
 </body>
-
-  </html>
+</html>
